@@ -11,6 +11,6 @@ function ButtonClick() {
 }
 const completeButtons = document.getElementsByClassName('complete-btn');
 
-for (let i = 0; i < completeButtons.length; i++) {
+for (let i = 0; i<completeButtons.length; i++) {
     completeButtons[i].addEventListener('click', ButtonClick);
 }
